@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* ─── Light theme tokens ─────────────────────────────────── */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+
+  --primary: #1e40af;
+  --secondary: #0f172a;
+  --accent: #22c55e;
+  --highlight: #f59e0b;
+
+  --card: #ffffff;
+  --border: #e5e7eb;
+}
+
+/* ─── Tailwind v4 theme mapping ──────────────────────────── */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-highlight: var(--highlight);
+  --color-card: var(--card);
+  --color-border: var(--border);
+}
+
+/* ─── Dark tokens — via .dark class (next-themes) ────────── */
+.dark {
+  --background: #0f172a;
+  --foreground: #f1f5f9;
+
+  --primary: #3b82f6;
+  --secondary: #f1f5f9;
+  --card:  #1e293b;
+  --border: #334155;
+}
+
+/* ─── System fallback (OS preference, no class set) ─────── */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not(.dark) {
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+
+    --primary: #3b82f6;
+    --secondary: #f1f5f9;
+    --card: #1e293b;
+    --border: #334155;
+  }
+}
+
+/* ─── Global base ────────────────────────────────────────── */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  /* Smooth theme transitions */
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Smooth transition on all themed elements */
+*, *::before, *::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+/* But don't animate transforms / opacity (would break framer-motion) */
+[data-framer-motion], [style*="transform"], [style*="opacity"] {
+  transition-property: background-color, border-color, color;
+}
