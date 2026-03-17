@@ -1,59 +1,149 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Acrely – AI-Powered Real Estate Platform
 
-## Getting Started
+Acrely is a next-generation real estate platform designed to simplify property discovery, analysis, and transactions using data, automation, and intelligent insights.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Overview
+
+Acrely transforms how users interact with real estate by combining:
+
+* Smart property discovery
+* AI-driven insights
+* Legal and financial guidance
+* End-to-end transaction support
+
+Our goal is to eliminate inefficiencies in traditional property buying and selling while maximizing value for users.
+
+---
+
+## 🧠 Core Features
+
+* **AI Property Matching**
+  Intelligent recommendations based on user preferences and behavior.
+
+* **Advanced Search & Filters**
+  Location, budget, ROI potential, and lifestyle-based filtering.
+
+* **Acrely Intelligence (AI Scoring)**
+  Data-backed scoring system for:
+
+  * ROI potential
+  * Construction quality
+  * Location growth
+  * Lifestyle value
+
+* **End-to-End Assistance**
+
+  * Property discovery
+  * Site visit coordination
+  * Legal verification
+  * Loan assistance
+  * Rental management
+
+* **User Dashboard**
+
+  * Saved properties
+  * Alerts
+  * Personalized insights
+
+---
+
+## 🏗️ Tech Stack
+
+* **Frontend:** Next.js, React, TypeScript
+* **Backend:** Next.js API Routes
+* **Database:** Prisma ORM
+* **Styling:** Tailwind CSS
+* **Authentication:** NextAuth
+* **Cloud Services:** Cloudinary (media handling)
+
+---
+
+## 📦 Project Structure
+
+```
+src/
+ ├── app/            # App router pages & APIs
+ ├── components/     # UI & reusable components
+ ├── lib/            # Core utilities (Prisma, auth, etc.)
+ ├── mock-data/      # Sample data
+ ├── types/          # Type definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Clone the repository
 
-## Learn More
+```
+git clone https://github.com/cofoundbusiness/Acrely-Website-V.14.3.2620
+cd Acrely-Website-V.14.3.2620
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Setup environment variables
 
-## Deploy on Vercel
+Create a `.env` file and add:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+DATABASE_URL=
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+### 4. Run development server
 
-# Run and deploy your AI Studio app
+```
+npm run dev
+```
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ysAJvO2zHE7NAkUfdHNdgH3I4Wm1qotG
+## 🌍 Deployment
 
-## Run Locally
+The project is optimized for deployment on Vercel.
 
-**Prerequisites:**  Node.js
+---
 
+## 🎯 Vision
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
->>>>>>> 1c5173de2e06e173f146c0e581f47910de87ea9a
+Acrely aims to become a full-stack real estate ecosystem by integrating:
+
+* AI-driven property analysis
+* Blockchain-backed transactions
+* Fractional ownership (REIT model)
+* End-to-end asset management
+
+---
+
+## 🤝 Contributing
+
+Currently a private build under active development.
+Collaboration opportunities may open in the future.
+
+---
+
+## 📄 License
+
+All rights reserved © Acrely
+
+---
+
+## 👤 Founders
+
+Sanjay                                           
+sanjayaaron@acrely.in                                           
+Founder, Acrely                                                 
+
+Saran
+saranravi@acrely.in
+Founder, Acrely
+
+---
