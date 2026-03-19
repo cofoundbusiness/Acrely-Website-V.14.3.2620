@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "tmp-app",
   "version": "0.1.0",
   "private": true,
@@ -41,27 +40,5 @@
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
-=======
-  "name": "acrely---modern-real-estate-platform-(v.1.1.1.2)",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.0",
-    "@google/genai": "^1.30.0",
-    "lucide-react": "^0.555.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
->>>>>>> 1c5173de2e06e173f146c0e581f47910de87ea9a
   }
 }
